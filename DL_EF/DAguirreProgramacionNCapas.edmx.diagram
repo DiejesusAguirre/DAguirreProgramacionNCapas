@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a37ce3c4b6b349a6ab910e32d7da73cf" Name="Diagram1" ZoomLevel="47">
+        <EntityTypeShape EntityType="DAguirreProgramacionNCapasModel.Aseguradora" Width="1.5" PointX="5.25" PointY="6" />
+        <EntityTypeShape EntityType="DAguirreProgramacionNCapasModel.Colonia" Width="1.5" PointX="3" PointY="7.75" />
+        <EntityTypeShape EntityType="DAguirreProgramacionNCapasModel.Dependiente" Width="1.5" PointX="12.25" PointY="1" />
+        <EntityTypeShape EntityType="DAguirreProgramacionNCapasModel.DependienteTipo" Width="1.5" PointX="10" PointY="9.25" />
+        <EntityTypeShape EntityType="DAguirreProgramacionNCapasModel.Direccion" Width="1.5" PointX="5.25" PointY="2.5" />
+        <EntityTypeShape EntityType="DAguirreProgramacionNCapasModel.Empleado" Width="1.5" PointX="10" PointY="1" />
+        <EntityTypeShape EntityType="DAguirreProgramacionNCapasModel.Empresa" Width="1.5" PointX="7.75" PointY="1.625" />
+        <EntityTypeShape EntityType="DAguirreProgramacionNCapasModel.Estado" Width="1.5" PointX="1.5" PointY="10.875" />
+        <EntityTypeShape EntityType="DAguirreProgramacionNCapasModel.EstadoCivil" Width="1.5" PointX="10" PointY="5.875" />
+        <EntityTypeShape EntityType="DAguirreProgramacionNCapasModel.Municipio" Width="1.5" PointX="0.75" PointY="7.875" />
+        <EntityTypeShape EntityType="DAguirreProgramacionNCapasModel.Pai" Width="1.5" PointX="1.5" PointY="14" />
+        <EntityTypeShape EntityType="DAguirreProgramacionNCapasModel.Rol" Width="1.5" PointX="0.75" PointY="3" />
+        <EntityTypeShape EntityType="DAguirreProgramacionNCapasModel.Usuario" Width="1.5" PointX="3" PointY="1.625" />
+        <AssociationConnector Association="DAguirreProgramacionNCapasModel.FKIdUsuario" />
+        <AssociationConnector Association="DAguirreProgramacionNCapasModel.FKIdColonia" />
+        <AssociationConnector Association="DAguirreProgramacionNCapasModel.FKIdMunicipio" />
+        <AssociationConnector Association="DAguirreProgramacionNCapasModel.FK__Dependien__IdDep__7B5B524B" />
+        <AssociationConnector Association="DAguirreProgramacionNCapasModel.FK__Dependien__IdDep__7C4F7684" />
+        <AssociationConnector Association="DAguirreProgramacionNCapasModel.FKEstadoCivil" />
+        <AssociationConnector Association="DAguirreProgramacionNCapasModel.FKUsuario" />
+        <AssociationConnector Association="DAguirreProgramacionNCapasModel.FK__Empleado__IdEmpr__71D1E811" />
+        <AssociationConnector Association="DAguirreProgramacionNCapasModel.FKIdEstado" />
+        <AssociationConnector Association="DAguirreProgramacionNCapasModel.FKIdPais" />
+        <AssociationConnector Association="DAguirreProgramacionNCapasModel.foranea" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
