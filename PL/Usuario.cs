@@ -53,7 +53,7 @@ namespace PL
             ML.Result result = new ML.Result();
 
 
-            result = BL.Usuario.AddLINQ(usuario);
+            result = BL.Usuario.AddSP(usuario);
             if (result.Correct)
             {
                 Console.WriteLine("El usuario se registro correctamente");

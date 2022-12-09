@@ -426,6 +426,7 @@ namespace BL
                             aseguradora.Usuario.Nombre = obj.NombreUsuario;
                             aseguradora.Usuario.ApellidoPaterno = obj.ApellidoPaterno;
                             aseguradora.Usuario.ApellidoMaterno = obj.ApellidoMaterno;
+
                             
 
                             result.Objects.Add(aseguradora);

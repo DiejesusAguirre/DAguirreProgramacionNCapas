@@ -12,8 +12,8 @@ namespace PL_MVC.Controllers
         [HttpGet]
         public ActionResult GetAll()
         {
-            ML.Result result = BL.Aseguradora.GetAllEF();
             ML.Aseguradora aseguradora = new ML.Aseguradora();
+            ML.Result result = BL.Aseguradora.GetAllEF();
 
             if (result.Correct)
             {
@@ -30,10 +30,9 @@ namespace PL_MVC.Controllers
         public ActionResult Form(int? IdAseguradora)
         {
             ML.Aseguradora aseguradora = new ML.Aseguradora();
-            ML.Usuario usuario = new ML.Usuario();
-            ML.Result resultAseguradora = new ML.Result();
             aseguradora.Usuario = new ML.Usuario();
-            resultAseguradora = BL.Usuario.GetAllEF(usuario);
+            aseguradora.Usuario.ROL = new ML.Rol();
+            ML.Result resultAseguradora = BL.Usuario.GetAllEF(aseguradora.Usuario);
 
 
 
